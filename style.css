@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #dfdfdf;
+    background-color: #063647;
+}
+
+
+
+section {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+#header-nav {
+    display: flex;
+    height: 11vh;
+    background-color: #063647;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+}
+.link-style ul, a {   
+    list-style: none;
+    text-decoration: none;
+    color: #dfdfdf;
+    display: flex;
+    margin-right: 2rem;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+.link-img {
+    margin-left: 4vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.box img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.texto-container {
+    padding: .3rem;
+    height: 3rem;
+    width: 20rem;
+}
+
+
+
+.section-1 {
+    background: #063647;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    background-color: #052D3D;
+}
+
+.section-3 {
+    background-color: #0E282E;
+}
+
+
+
+.texto {
+    height: 5rem;
+    width: 30rem;
+    word-spacing: .3rem;
+    padding: .5rem;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-hab {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.img-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.conteudo-projetos {
+    margin-top: 2rem;
+}
+
+.texto-habilidades {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.img-project img {
+    width: 50%;
+    align-items: center;
+
+}
+
+
+@media (max-width: 1100px) {
+    .img {
+        height: 150px;
+    }
+
+    .texto {
+        width: 60%;
+    }
+
+    .img-project img {
+        width: 70%;
+    }
+
+    .img-container {
+        flex-direction: column;
+    }    
+}
